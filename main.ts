@@ -16,7 +16,7 @@ await mongoClient.connect();
 
 console.info("Connected to MongoDB");
 
-const mongoDB = mongoClient.db("dinosaurs");
+const mongoDB = mongoClient.db("vuelos");
 const VuelosCollection = mongoDB.collection<VueloModel>("vuelos");
 
 
